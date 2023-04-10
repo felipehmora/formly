@@ -31,9 +31,6 @@ export class FormComponent {
           props: {
             label: 'Last Name',
           },
-          expressions: {
-            'props.disabled': '!model.firstName',
-          },
         },
       ],
     },
